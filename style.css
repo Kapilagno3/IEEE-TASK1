@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+.page1 {
+  height: 100vh;
+  width: 100%;
+  /* background-color: yellow; */
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.navpart1 {
+  padding: 1vw;
+  height: 10vh;
+  width: 98%;
+  background-color: #066ba2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* position: fixed; */
+}
+.navpart1 .links {
+  width: 40%;
+}
+.navpart1 .links a {
+  text-transform: capitalize;
+  text-decoration: none;
+  padding: 5px;
+}
+.navpart1 .links a:hover {
+  /* text-decoration: underline; */
+  color: #70bde7;
+}
+.navpart1 .lang {
+  text-transform: capitalize;
+}
+.navpart2 {
+  height: 12vh;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navpart2 img {
+  height: 12vh;
+  width: 10vw;
+  object-fit: contain;
+  margin: 10px;
+  padding-right: 5px;
+  border-right: 1px solid black;
+}
+.navpart2 .img {
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.navpart2 .img a {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+}
+.navpart2 .btn button {
+  height: 10vh;
+  width: 10vw;
+  border-radius: 8px;
+  background-color: #066ba2;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: none;
+  border: none;
+  text-transform: uppercase;
+  align-self: center;
+}
+/* herosection */
+.herosection {
+  height: 100%;
+  width: 100%;
+}
+.heroimgback img {
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+  /* background-image: url("heroimg1.jpg");
+  background-repeat: no-repeat;
+  scale: 1.2; */
+}
+.heromain {
+  height: 75vh;
+  width: 100%;
+  background-color: #066ba2;
+  position: absolute;
+  top: 26vh;
+  left: 0;
+  opacity: 0.8;
+}
+.herotext {
+  height: 25vh;
+  width: 40vw;
+  /* background-color: red; */
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  line-height: 5vh;
+}
+.herotext button {
+  height: 8vh;
+  width: 12vw;
+  color: #066ba2;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.3vw;
+  letter-spacing: -1px;
+  margin: 20px;
+  border-radius: 10px;
+  border: none;
+}
+/* page2 */
+.page2 {
+  height: 100vh;
+  width: 100%;
+  color: #066ba2;
+  overflow: hidden;
+}
+/* numbers */
+.numbers {
+  height: 40vh;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #066ba2;
+}
+.numbers p,
+.numbers h3 {
+  color: #066ba2;
+  text-align: center;
+}
+.numbers h3 {
+  color: black;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.numbers p {
+  font-size: 4vw;
+  font-weight: 900;
+}
+/* upcoming */
+.upcoming {
+  height: 60vh;
+  width: 100%;
+  color: black;
+  /* background-color: blueviolet; */
+  text-transform: capitalize;
+  padding-left: 50px;
+  padding-top: 40px;
+}
+.upcoming h1 {
+  color: black;
+  font-size: 2vw;
+  padding-bottom: 40px;
+}
+.upcoming h1 span {
+  color: #066ba2;
+}
+.month {
+  display: flex;
+  padding: 20px;
+}
+.upcoming .month h3 {
+  font-size: 3vw;
+  color: black;
+}
+.month button {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  color: rgb(210, 204, 204);
+  border: 1px solid black;
+  font-weight: 800;
+  font-size: large;
+}
+.month button:hover {
+  background-color: rgb(231, 227, 227);
+}
+.event {
+  height: 30vh;
+  width: 80%;
+}
+.event1,
+.event2 {
+  border-radius: 10px;
+  background-color: #70bde7;
+  color: #ffffff;
+  height: 10vh;
+  margin-bottom: 10px;
+  justify-self: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
